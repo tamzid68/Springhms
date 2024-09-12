@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class RootController {
     @RequestMapping(value = "/hi",method = RequestMethod.GET)
     public String rootMap(){
-
         return "Hi Tamzid";
     }
 }
